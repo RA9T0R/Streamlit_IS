@@ -201,7 +201,7 @@ with col1:
     st.divider()
     st.subheader("Mean Absolute Error (MAE)")
     st.write("MAE วัดความแตกต่างสัมบูรณ์เฉลี่ยระหว่างค่าที่คาดการณ์กับค่าจริง")
-    st.latex(r'''\text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i''')
+    st.latex(r'''\text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|''')
     st.divider()
     st.subheader("Root Mean Squared Error (RMSE)")
     st.write("RMSE คือรากที่สองของ MSE และให้การวัดค่าเฉลี่ยของขนาดข้อผิดพลาด")
